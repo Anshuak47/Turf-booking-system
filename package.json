@@ -1,0 +1,35 @@
+{
+  "name": "turf-booking",
+  "version": "1.0.0",
+  "description": "Turf booking system for local turf",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshuak47/Turf-booking-system.git"
+  },
+  "keywords": [
+    "turf",
+    "node",
+    "react"
+  ],
+  "author": "Anshu Kushwaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anshuak47/Turf-booking-system/issues"
+  },
+  "homepage": "https://github.com/Anshuak47/Turf-booking-system#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  }
+}
