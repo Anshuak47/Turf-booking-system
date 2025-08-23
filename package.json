@@ -2,10 +2,9 @@
   "name": "turf-booking",
   "version": "1.0.0",
   "description": "Turf booking system for local turf",
-  "main": "./src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
@@ -28,8 +27,11 @@
     "nodemon": "^3.1.10"
   },
   "dependencies": {
+    "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.17.2",
+    "multer": "^2.0.2"
   }
 }
